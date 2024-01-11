@@ -20,7 +20,7 @@ const ResultModal = forwardRef(
         {userLost && <h2>You Lost</h2>}
         {!userLost && <h2>Your Score: {score}</h2>}
         <p>
-          The Target Time was<strong>{targetTime} seconds.</strong>
+          The Target Time was <strong>{targetTime} seconds.</strong>
         </p>
         <p>
           You stopped the timer with{" "}
